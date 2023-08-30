@@ -6,9 +6,16 @@
     .column {
         flex: 1; /* <--- required (style column to fill the same space as the other columns) */
     }
-
+    
     .row {
-        margin: 2px;
-        background: gold;
+        margin: 2.5px;
         text-align: center;
+        border-style: solid;
+        border-color: white;
     }
+
+    .row.-selected {
+        background-color: red;
+    }
+
+ 
