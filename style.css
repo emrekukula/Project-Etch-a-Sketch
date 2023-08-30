@@ -1,0 +1,14 @@
+
+    .grid {
+        display: flex;   /* <--- required */
+    }
+
+    .column {
+        flex: 1; /* <--- required (style column to fill the same space as the other columns) */
+    }
+
+    .row {
+        margin: 2px;
+        background: gold;
+        text-align: center;
+    }
