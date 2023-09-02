@@ -46,8 +46,8 @@ function customGrid() {
     grid.className = 'grid';
     document.body.appendChild(grid);
     userNumber = prompt('Grid Length?');
-    if (userNumber > 100) alert('Input can not exceed 100');
-    if (userNumber == isNaN) alert('Input must be a number');
+    if (userNumber > 100) alert('Can not exceed 100');
+    if (isNaN(userNumber)) alert('Must be a number');
     for (let i=0; i <= userNumber - 1; i++) {
         let column = document.createElement('div');
         column.className = `column ${i}`;
