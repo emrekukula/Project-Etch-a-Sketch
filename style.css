@@ -16,6 +16,14 @@
         height: 600px;
     }
 
+    #btn {
+        padding: 15px;;
+        background-color: blue;
+        font-weight: bold;
+        font-style: italic;
+        color: olivedrab;
+    }
+
     .column {
         size: 37px;
         display: flex;
@@ -27,16 +35,25 @@
         flex-grow: 1;
         border-style: solid;
         border-color: white;
+        filter: brightness(1);
+    }
+    
+    .row.B80 {
+        filter: brightness(0.8);
     }
 
-    .row.-selected {
-        background-color: red;
+    .row.B60 {
+        filter: brightness(0.6);
     }
 
-    #btn {
-        padding: 15px;;
-        background-color: blue;
-        font-weight: bold;
-        font-style: italic;
-        color: olivedrab;
+    .row.B40 {
+        filter: brightness(0.4);
+    }
+
+    .row.B20 {
+        filter: brightness(0.2);
+    }
+
+    .row.B00 {
+        filter: brightness(0);
     }
