@@ -13,7 +13,9 @@
         border: 5px solid purple;
         border-radius: 2px;
         width: 600px;
+        max-width: 600px;
         height: 600px;
+        max-height: 600px;
     }
 
     #btn {
